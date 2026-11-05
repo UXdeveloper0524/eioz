@@ -1,0 +1,11 @@
+# EIOZ roadmap
+- [x] 1B Journey of Light (Home process section)
+- [x] 1C Home fully dark + particle interactions, scene indicator, cursor, magnetic CTA
+- [x] 2 About
+- [x] 3 Group
+- [x] 4 Our Approach
+- [x] 5 Our Expertise + Projects
+- [x] 6 Careers (jobs modal + form)
+- [x] 7 Contact Us (form, maps tabs)
+- [x] 8 Cross-site: page fade, counters, floating phone, 404
+- [x] 9 QA pass + placeholder list

@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_pages",
+  "info": { "singularName": "site-page", "pluralName": "site-pages", "displayName": "Site Page" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "slug": { "type": "string", "required": true, "unique": true },
+    "eyebrow": { "type": "string" },
+    "title": { "type": "string" },
+    "highlight": { "type": "string" },
+    "intro": { "type": "text" },
+    "seoTitle": { "type": "string" },
+    "seoDescription": { "type": "text" }
+  }
+}

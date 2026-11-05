@@ -1,0 +1,13 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": { "singularName": "job", "pluralName": "jobs", "displayName": "Job" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true },
+    "responsibilities": { "type": "json" },
+    "position": { "type": "integer", "default": 0 },
+    "active": { "type": "boolean", "default": true }
+  }
+}

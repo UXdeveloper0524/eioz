@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": { "singularName": "project", "pluralName": "projects", "displayName": "Project" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "year": { "type": "integer", "required": true },
+    "sector": { "type": "enumeration", "enum": ["Residential", "Commercial", "Hospitality", "Infrastructure", "Industrial", "Government and Education"], "required": true },
+    "scope": { "type": "json" },
+    "featured": { "type": "boolean", "default": false },
+    "position": { "type": "integer", "default": 0 }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": { "singularName": "lead", "pluralName": "leads", "displayName": "Lead" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "email": { "type": "email", "required": true },
+    "phone": { "type": "string" },
+    "subject": { "type": "string" },
+    "message": { "type": "text" },
+    "context": { "type": "string" },
+    "cv": { "type": "media", "multiple": false, "required": false, "allowedTypes": ["files"] }
+  }
+}

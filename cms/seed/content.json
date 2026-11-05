@@ -1,0 +1,681 @@
+{
+  "projects": [
+    {
+      "year": 2015,
+      "title": "Design & supply of interior and landscape lighting, six luxury villas, Al Mesilla",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 0
+    },
+    {
+      "year": 2015,
+      "title": "Supply and installation of interior and exterior lighting, airport restaurant, Doha",
+      "sector": "Hospitality",
+      "scope": [
+        "Supply",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 1
+    },
+    {
+      "year": 2015,
+      "title": "Supply of outdoor lighting for private engineering office projects",
+      "sector": "Commercial",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 2
+    },
+    {
+      "year": 2015,
+      "title": "Supply of outdoor lighting, Pearl Qatar Porto Arabia Tower",
+      "sector": "Residential",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 3
+    },
+    {
+      "year": 2015,
+      "title": "Supply of interior lighting, Al Kafooth villa",
+      "sector": "Residential",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 4
+    },
+    {
+      "year": 2016,
+      "title": "Design & supply of interior lighting, 23 Royal Oman Police officers club houses",
+      "sector": "Government and Education",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 5
+    },
+    {
+      "year": 2016,
+      "title": "Design & supply of landscape lighting, 23 (G+1+P) villa compound plus club house and pool",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 6
+    },
+    {
+      "year": 2016,
+      "title": "Design & supply of landscape lighting, 25 (G+1) villa compound plus club house",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 7
+    },
+    {
+      "year": 2016,
+      "title": "Supply of landscape lighting, Y Building XII, Al Saad",
+      "sector": "Commercial",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 8
+    },
+    {
+      "year": 2016,
+      "title": "Supply & installation of landscape lighting, IB Palace at Ain Khaled",
+      "sector": "Residential",
+      "scope": [
+        "Supply",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 9
+    },
+    {
+      "year": 2016,
+      "title": "Supply of lighting systems for Mother Villa, Fanar Fayrous, Plot No. 20",
+      "sector": "Residential",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 10
+    },
+    {
+      "year": 2017,
+      "title": "Design & supply of interior lighting, Oman Convention & Exhibition Centre, Crown Plaza",
+      "sector": "Hospitality",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 11
+    },
+    {
+      "year": 2017,
+      "title": "Design & supply of interior lighting, external accommodation building at Qatar Naval Base",
+      "sector": "Government and Education",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 12
+    },
+    {
+      "year": 2017,
+      "title": "Design, supply and installation of fibre optic lighting system, Al Khor Farm Villa",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 13
+    },
+    {
+      "year": 2017,
+      "title": "Design, supply and installation of landscape & interior lighting, G+1+P palace building at Al Shakhama",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 14
+    },
+    {
+      "year": 2017,
+      "title": "Design, supply & installation of Al Wesaya Tower facade lighting",
+      "sector": "Commercial",
+      "scope": [
+        "Design",
+        "Supply",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 15
+    },
+    {
+      "year": 2017,
+      "title": "Design & supply of interior lighting, G+1+P private villa, La Plage Villa East Plot No. 18",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": true,
+      "position": 16
+    },
+    {
+      "year": 2017,
+      "title": "Supply of light fittings, Al Atiyah farm house at Simay Simah",
+      "sector": "Residential",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 17
+    },
+    {
+      "year": 2018,
+      "title": "Bin Dirham 5 lighting, Al Mansoura, Doha",
+      "sector": "Commercial",
+      "scope": [],
+      "featured": false,
+      "position": 18
+    },
+    {
+      "year": 2018,
+      "title": "Supply and installation of light fittings, Wa Baharta 128 13, Pearl Qatar",
+      "sector": "Residential",
+      "scope": [
+        "Supply",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 19
+    },
+    {
+      "year": 2018,
+      "title": "Supply of light fittings, Ford truck garage, Al Mana Group industrial area",
+      "sector": "Industrial",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 20
+    },
+    {
+      "year": 2018,
+      "title": "Supply of light fittings, OWO Cinema, Muscat, Oman",
+      "sector": "Commercial",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 21
+    },
+    {
+      "year": 2018,
+      "title": "Design and supply of landscape lighting, IB Palace",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 22
+    },
+    {
+      "year": 2018,
+      "title": "Design and installation of LED screen",
+      "sector": "Commercial",
+      "scope": [
+        "Design",
+        "Installation"
+      ],
+      "featured": false,
+      "position": 23
+    },
+    {
+      "year": 2019,
+      "title": "Design & supply of outdoor lighting, G+P private villa, La Plage Villa East Plot No. 18",
+      "sector": "Residential",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 24
+    },
+    {
+      "year": 2019,
+      "title": "Installation of LED strip light, Manai Corporation car shed",
+      "sector": "Commercial",
+      "scope": [
+        "Installation"
+      ],
+      "featured": false,
+      "position": 25
+    },
+    {
+      "year": 2019,
+      "title": "Supply of light fittings, GWC warehouse",
+      "sector": "Industrial",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 26
+    },
+    {
+      "year": 2019,
+      "title": "High bay light installation, garage industrial area",
+      "sector": "Industrial",
+      "scope": [
+        "Installation"
+      ],
+      "featured": false,
+      "position": 27
+    },
+    {
+      "year": 2019,
+      "title": "Supply of underwater lights, IB Palace",
+      "sector": "Residential",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 28
+    },
+    {
+      "year": 2019,
+      "title": "Design and supply of interior lighting, Subaru car showroom",
+      "sector": "Commercial",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 29
+    },
+    {
+      "year": 2019,
+      "title": "Design and supply of facade lighting, Ismayil Bin Ali Tower",
+      "sector": "Commercial",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": true,
+      "position": 30
+    },
+    {
+      "year": 2019,
+      "title": "Design and supply of exit & emergency lights, HMC campus",
+      "sector": "Government and Education",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 31
+    },
+    {
+      "year": 2019,
+      "title": "Design and supply of interior lighting, Amri Diwan Palace, Corniche",
+      "sector": "Government and Education",
+      "scope": [
+        "Design",
+        "Supply"
+      ],
+      "featured": false,
+      "position": 32
+    },
+    {
+      "year": 2020,
+      "title": "K5547-ACT Dhukhan Air Base",
+      "sector": "Government and Education",
+      "scope": [],
+      "featured": false,
+      "position": 33
+    },
+    {
+      "year": 2020,
+      "title": "Supply of emergency kit for light fixtures, ID & TO existing schools, Package 3 (11 schools)",
+      "sector": "Government and Education",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 34
+    },
+    {
+      "year": 2020,
+      "title": "CO2 Factory, New Industrial Area",
+      "sector": "Industrial",
+      "scope": [],
+      "featured": false,
+      "position": 35
+    },
+    {
+      "year": 2020,
+      "title": "Construction of Pearl showroom",
+      "sector": "Commercial",
+      "scope": [],
+      "featured": false,
+      "position": 36
+    },
+    {
+      "year": 2020,
+      "title": "Ain Khaled Gate",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 37
+    },
+    {
+      "year": 2021,
+      "title": "Construction of VIP area (G+1) villa compound plus club house and pool",
+      "sector": "Residential",
+      "scope": [],
+      "featured": false,
+      "position": 38
+    },
+    {
+      "year": 2021,
+      "title": "Khalifa Stadium renovation, exit lighting",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 39
+    },
+    {
+      "year": 2021,
+      "title": "Khalifa Stadium renovation, emergency lighting",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": true,
+      "position": 40
+    },
+    {
+      "year": 2021,
+      "title": "Construction of HBK staff accommodation, 65 villas",
+      "sector": "Residential",
+      "scope": [],
+      "featured": false,
+      "position": 41
+    },
+    {
+      "year": 2021,
+      "title": "Project at Al Wukair (00850): fabrication & supply of 4m decorative camera pole",
+      "sector": "Infrastructure",
+      "scope": [
+        "Supply"
+      ],
+      "featured": false,
+      "position": 42
+    },
+    {
+      "year": 2022,
+      "title": "Kings School",
+      "sector": "Government and Education",
+      "scope": [],
+      "featured": false,
+      "position": 43
+    },
+    {
+      "year": 2022,
+      "title": "Four Star Hotel, Salata",
+      "sector": "Hospitality",
+      "scope": [],
+      "featured": true,
+      "position": 44
+    },
+    {
+      "year": 2022,
+      "title": "Kings College, exit and emergency",
+      "sector": "Government and Education",
+      "scope": [],
+      "featured": false,
+      "position": 45
+    },
+    {
+      "year": 2022,
+      "title": "Al Seneem Park",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 46
+    },
+    {
+      "year": 2022,
+      "title": "Pearl Villa",
+      "sector": "Residential",
+      "scope": [],
+      "featured": false,
+      "position": 47
+    },
+    {
+      "year": 2022,
+      "title": "Ashghal Store (Salwa Office), P47",
+      "sector": "Government and Education",
+      "scope": [],
+      "featured": false,
+      "position": 48
+    },
+    {
+      "year": 2023,
+      "title": "Auto Cluster roads and infrastructure (first phase), Umm Al Houl Free Zone",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": true,
+      "position": 49
+    },
+    {
+      "year": 2023,
+      "title": "EPC 01",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 50
+    },
+    {
+      "year": 2023,
+      "title": "Al Waab City",
+      "sector": "Residential",
+      "scope": [],
+      "featured": false,
+      "position": 51
+    },
+    {
+      "year": 2023,
+      "title": "Hotel apartment spare parts",
+      "sector": "Hospitality",
+      "scope": [],
+      "featured": false,
+      "position": 52
+    },
+    {
+      "year": 2023,
+      "title": "HMC Dental",
+      "sector": "Government and Education",
+      "scope": [],
+      "featured": false,
+      "position": 53
+    },
+    {
+      "year": 2023,
+      "title": "Doha Festival City Park",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 54
+    },
+    {
+      "year": 2024,
+      "title": "Dhukhan upgradation",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 55
+    },
+    {
+      "year": 2024,
+      "title": "LARC University",
+      "sector": "Government and Education",
+      "scope": [],
+      "featured": false,
+      "position": 56
+    },
+    {
+      "year": 2024,
+      "title": "Solar tower lights",
+      "sector": "Infrastructure",
+      "scope": [],
+      "featured": false,
+      "position": 57
+    },
+    {
+      "year": 2024,
+      "title": "CRS Building, Qatar Steel",
+      "sector": "Industrial",
+      "scope": [],
+      "featured": false,
+      "position": 58
+    },
+    {
+      "year": 2024,
+      "title": "Metallurgy shutdown, Dolphin Energy",
+      "sector": "Industrial",
+      "scope": [],
+      "featured": true,
+      "position": 59
+    }
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "eyebrow": "Middle East Lighting Solutions",
+      "title": "Lighting the Future with",
+      "highlight": "EIOZ ENERGY",
+      "intro": "Eioz Energy is a leading lighting solutions provider based in the Middle East, delivering innovative and energy-efficient lighting for residential and commercial spaces. We specialize in modern, elegant, and industrial lighting designs, combining quality, performance, and value for clients across the region and expanding international markets."
+    },
+    {
+      "slug": "about",
+      "eyebrow": "Building Trust",
+      "title": "About",
+      "highlight": "EIOZ Energy",
+      "intro": "Eioz Energy is a leading lighting solutions provider based in the Middle East, delivering innovative and energy-efficient lighting for residential and commercial spaces. We specialize in modern, elegant, and industrial lighting designs, combining quality, performance, and value for clients across the region and expanding international markets."
+    },
+    {
+      "slug": "careers",
+      "eyebrow": "Shape the Future with EIOZ Energy",
+      "title": "Careers at",
+      "highlight": "EIOZ Energy",
+      "intro": "At EIOZ Energy, we believe our people are the driving force behind our innovation and success. We are always looking for passionate and talented individuals who want to grow their careers in the lighting and energy solutions industry. Join our team and be part of a dynamic environment where creativity, collaboration, and continuous learning help shape the future of sustainable lighting."
+    },
+    {
+      "slug": "contact-us",
+      "eyebrow": "Contact",
+      "title": "Start Your Project with",
+      "highlight": "EIOZ Energy",
+      "intro": "Have a question or project in mind? Our team at EIOZ Energy is here to help with reliable lighting solutions and expert support."
+    },
+    {
+      "slug": "group",
+      "eyebrow": "Our group",
+      "highlight": "EIOZ ENERGY",
+      "title": "GROUP",
+      "intro": "EIOZ Energy is a growing global lighting solutions company with a group of specialized brands delivering innovative and energy-efficient lighting products. Through our portfolio of companies, we provide complete lighting solutions ranging from architectural lighting to street lighting infrastructure. Our group companies focus on quality, sustainability, and advanced lighting technologies to serve residential, commercial, and industrial projects worldwide."
+    },
+    {
+      "slug": "our-approach",
+      "eyebrow": "How we deliver",
+      "title": "Our",
+      "highlight": "Approach",
+      "intro": "At EIOZ Energy, we follow a structured and efficient approach to deliver reliable and energy-efficient lighting solutions. From design and engineering to installation and final commissioning, every stage of our process focuses on quality, innovation, and long-term performance."
+    },
+    {
+      "slug": "our-expertise",
+      "eyebrow": "EIOZ Lighting Solution",
+      "title": "Our",
+      "highlight": "Expertise",
+      "intro": "EIOZ Energy offers a comprehensive range of high-quality LED lighting products and smart lighting solutions designed for residential, commercial, and infrastructure projects. Our portfolio includes architectural lighting, street lighting systems, lighting poles, and energy-efficient indoor and outdoor lighting, combining modern design, durability, and advanced technology to meet diverse project requirements across the UAE, Qatar, and international markets."
+    },
+    {
+      "slug": "projects",
+      "eyebrow": "Our portfolio",
+      "title": "EIOZ ENERGY",
+      "highlight": "Projects",
+      "intro": "EIOZ Energy has successfully completed a wide range of lighting projects across residential, commercial, and public infrastructure sectors. Our portfolio highlights both completed projects and recent installations, showcasing our expertise in delivering reliable, energy-efficient lighting solutions for modern developments across the Middle East and global markets."
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Regional Manager",
+      "description": "Responsible for overseeing business operations, managing regional teams, achieving sales targets, and ensuring smooth coordination across assigned locations. Strong leadership and communication skills required.",
+      "responsibilities": [],
+      "position": 0,
+      "active": true
+    },
+    {
+      "title": "Project Manager",
+      "description": "Responsible for planning, coordinating, and managing projects to ensure timely completion, quality standards, and smooth team communication. Strong leadership and problem-solving skills required.",
+      "responsibilities": [
+        "Plan, manage, and monitor project activities",
+        "Coordinate with clients, vendors, and internal teams",
+        "Ensure projects are completed on time and within budget",
+        "Prepare project reports and progress updates",
+        "Handle problem-solving and team management effectively"
+      ],
+      "position": 1,
+      "active": true
+    },
+    {
+      "title": "Site Supervisor",
+      "description": "Responsible for planning, coordinating, and managing projects to ensure timely completion, quality standards, and smooth team communication. Strong leadership and problem-solving skills required.",
+      "responsibilities": [
+        "Plan, manage, and monitor project activities",
+        "Coordinate with clients, vendors, and internal teams",
+        "Ensure projects are completed on time and within budget",
+        "Prepare project reports and progress updates",
+        "Handle problem-solving and team management effectively"
+      ],
+      "position": 2,
+      "active": true
+    },
+    {
+      "title": "Sales Manager",
+      "description": "Responsible for planning, coordinating, and managing projects to ensure timely completion, quality standards, and smooth team communication. Strong leadership and problem-solving skills required.",
+      "responsibilities": [
+        "Plan, manage, and monitor project activities",
+        "Coordinate with clients, vendors, and internal teams",
+        "Ensure projects are completed on time and within budget",
+        "Prepare project reports and progress updates",
+        "Handle problem-solving and team management effectively"
+      ],
+      "position": 3,
+      "active": true
+    }
+  ]
+}
