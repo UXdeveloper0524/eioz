@@ -35,22 +35,22 @@ void main() {
   vec4 world = modelMatrix * vec4(p, 1.0);
   vec2 d = world.xy - uMouse.xy;
   float md = length(d);
-  float mf = uMouseStr * smoothstep(${CFG.mouseRadius.toFixed(2)}, 0.0, md);
+  float mf = uMouseStr * (1.0 - smoothstep(0.0, ${CFG.mouseRadius.toFixed(2)}, md));
   world.xy += normalize(d + 1e-4) * mf * ${CFG.mouseStrength.toFixed(2)};
   vec2 rd = world.xy - uRipple.xy;
   float rl = length(rd);
-  float wave = sin(rl * 3.5 - uRippleAge * 9.0) * exp(-uRippleAge * 1.6) * smoothstep(uRippleAge * 4.0 + 1.0, uRippleAge * 4.0 - 1.0, rl);
+  float wave = sin(rl * 3.5 - uRippleAge * 9.0) * exp(-uRippleAge * 1.6) * (1.0 - smoothstep(uRippleAge * 4.0 - 1.0, uRippleAge * 4.0 + 1.0, rl));
   world.xy += normalize(rd + 1e-4) * wave * uRippleAmp * 0.35;
   vec2 a = uAttract.xy - world.xy;
-  float af = uAttractStr * smoothstep(3.5, 0.0, length(a));
+  float af = uAttractStr * (1.0 - smoothstep(0.0, 3.5, length(a)));
   world.xy += a * af * 0.3;
 
   vec4 mv = viewMatrix * world;
   gl_Position = projectionMatrix * mv;
 
   // Intro: ignite outward from the bulb.
-  float ign = smoothstep(uIgnite * 7.0, uIgnite * 7.0 - 1.5, length(aTo - vec3(0.0, 0.55, 0.0)));
-  float heat = mf * 1.2 + uHighlight * 0.4 * smoothstep(0.9, 0.0, abs(aKind - 3.0 - uHighlightX)) * step(2.5, aKind) * step(aKind, 8.5);
+  float ign = 1.0 - smoothstep(uIgnite * 7.0 - 1.5, uIgnite * 7.0, length(aTo - vec3(0.0, 0.55, 0.0)));
+  float heat = mf * 1.2 + uHighlight * 0.4 * (1.0 - smoothstep(0.0, 0.9, abs(aKind - 3.0 - uHighlightX))) * step(2.5, aKind) * step(aKind, 8.5);
   heat += (aKind > 1.5 && aKind < 2.5) ? 0.35 + uFlash * 2.0 : 0.0;
   heat += abs(wave) * uRippleAmp * 0.8 + af * 0.9;
   heat += uFill > 0.0 ? step(p.y, mix(-5.0, 5.0, uFill)) * 0.5 : 0.0;
@@ -73,9 +73,9 @@ varying float vHeat;
 varying float vTint;
 void main() {
   float d = length(gl_PointCoord - 0.5);
-  float a = smoothstep(0.5, 0.0, d);
+  float a = 1.0 - smoothstep(0.0, 0.5, d);
   vec3 edge = mix(uEdge, uTintC, smoothstep(0.6, 1.0, vTint) * 0.6);
-  vec3 col = mix(edge, uCore, clamp(smoothstep(0.3, 0.0, d) * 0.55 + vHeat * 0.5, 0.0, 1.0));
+  vec3 col = mix(edge, uCore, clamp((1.0 - smoothstep(0.0, 0.3, d)) * 0.55 + vHeat * 0.5, 0.0, 1.0));
   col = mix(col, vec3(1.0), clamp(vHeat - 1.0, 0.0, 1.0));
   gl_FragColor = vec4(col, a * a * vAlpha * uOpacity);
 }
@@ -504,5 +504,7 @@ export function canUseParticles() {
   const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
   if (conn?.saveData) return false;
   const c = document.createElement("canvas");
-  return !!(c.getContext("webgl2") || c.getContext("webgl"));
+  const gl = c.getContext("webgl2") || c.getContext("webgl");
+  gl?.getExtension("WEBGL_lose_context")?.loseContext();
+  return !!gl;
 }

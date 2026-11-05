@@ -18,21 +18,27 @@ export function ParticleField() {
       ((cb: () => void) => window.setTimeout(cb, 200));
     idle(
       () => {
-        import("@/lib/particles/engine").then(({ ParticleEngine, canUseParticles }) => {
-          if (disposed || !ref.current) return;
-          if (!canUseParticles()) return setMode("fallback");
-          try {
-            const e = new ParticleEngine(ref.current);
-            engine.current = e;
-            e.setPage(window.location.pathname);
-            e.start();
-            if (readPaused()) e.setPaused(true);
-            setMode("webgl");
-            (window as Window & { __particles?: ParticleEngine }).__particles = e;
-          } catch {
-            setMode("fallback");
-          }
-        });
+        import("@/lib/particles/engine")
+          .then(({ ParticleEngine, canUseParticles }) => {
+            if (disposed || !ref.current) return;
+            if (!canUseParticles()) return setMode("fallback");
+            try {
+              const e = new ParticleEngine(ref.current);
+              engine.current = e;
+              e.setPage(window.location.pathname);
+              e.start();
+              if (readPaused()) e.setPaused(true);
+              setMode("webgl");
+              (window as Window & { __particles?: ParticleEngine }).__particles = e;
+            } catch {
+              engine.current?.dispose();
+              engine.current = null;
+              setMode("fallback");
+            }
+          })
+          .catch(() => {
+            if (!disposed) setMode("fallback");
+          });
       },
       { timeout: 1500 },
     );
