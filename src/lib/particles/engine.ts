@@ -82,10 +82,18 @@ void main() {
 `;
 
 function cssColor(name: string, fallback: string): THREE.Color {
-  const raw = getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+  // Computed custom properties can still contain var(...), which Canvas 2D
+  // cannot parse as a color. Resolve the variable through a real CSS property.
+  const probe = document.createElement("span");
+  probe.style.color = `var(${name}, ${fallback})`;
+  document.body.appendChild(probe);
+  const raw = getComputedStyle(probe).color;
+  probe.remove();
   const c = document.createElement("canvas");
   c.width = c.height = 1;
   const ctx = c.getContext("2d")!;
+  // Keep the known sRGB color if this browser's Canvas 2D cannot parse raw.
+  ctx.fillStyle = fallback;
   ctx.fillStyle = raw;
   ctx.fillRect(0, 0, 1, 1);
   const [r, g, b] = ctx.getImageData(0, 0, 1, 1).data;
@@ -503,8 +511,7 @@ export function canUseParticles() {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
   const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
   if (conn?.saveData) return false;
-  const c = document.createElement("canvas");
-  const gl = c.getContext("webgl2") || c.getContext("webgl");
-  gl?.getExtension("WEBGL_lose_context")?.loseContext();
-  return !!gl;
+  // Let WebGLRenderer create the only WebGL context. A separate probe can
+  // exhaust Safari's small context budget before the scene starts.
+  return true;
 }
